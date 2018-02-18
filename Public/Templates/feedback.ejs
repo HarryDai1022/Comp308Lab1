@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Feedback</title>
+</head>
+<body>
+<form method="post" action="/thankyou">
+First name: <input type="text" id="firstNameInput"/></br>
+Last name: <input type="text" id="lastNameInput"/></br>
+Email ID: <input type="text" id="userNameInput" name="userNameInput" value="<%= userNameInput %>"/></br>
+Favourite song: <input type="text" id="favouriteSongInput"/></br>
+Favourite singer: <input type="text" id="favouriteSingerInput"/></br>
+Your comments: <textarea rows="4" cols="50" id="commentTextArea">Your comments here...</textarea>
+<input type="submit" id="submitButtonFeedbackPage" value="Submit"/></br>
+</form>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--<script type="text/javascript" src="../Scripts/loginScript.js"/>
+</html>
